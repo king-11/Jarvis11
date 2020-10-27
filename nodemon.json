@@ -1,0 +1,21 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "node_modules/**/node_modules",
+    ".git",
+    ".vercel",
+    ".github"
+  ],
+  "verbose": true,
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "watch": [
+    "api/"
+  ],
+  "delay": "2000",
+  "ext": "js,ts,json",
+  "env": {
+    "TOKEN": "set"
+  }
+}
