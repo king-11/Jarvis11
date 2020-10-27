@@ -1,5 +1,5 @@
-# Telegram Bots
-This repository contains the source code of the telegram bots developed and used by the COPS Dev Group.
+# Jarvis11
+This repository contains the source code of a telegram bot
 
 
 ## Setting Up
