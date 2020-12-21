@@ -118,3 +118,4 @@ dist
 
 .vercel
 .runtimeconfig.json
+lib/
