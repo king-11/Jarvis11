@@ -2,7 +2,7 @@ import { Context } from "telegraf";
 
 export const newMemberGreetings = async (ctx: Context): Promise<void> => {
 	if (ctx.message?.new_chat_members) {
-		const names = ctx.message.new_chat_members.map(val => (val.first_name || "New Entrant"));
+		const names = ctx.message.new_chat_members.map(val => (val.first_name || "Fellow Mate"));
 		await Promise.all(names.map(name => ctx.reply(`Hey ${name}! can you please introduce yourself :)`)));
 	}
 };

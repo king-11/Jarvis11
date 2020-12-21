@@ -11,11 +11,11 @@
     "ts": "ts-node"
   },
   "watch": [
-    "api/"
+    "src/"
   ],
   "delay": "2000",
   "ext": "js,ts,json",
   "env": {
-    "TOKEN": "set"
+    "NODE_ENV": "development"
   }
 }

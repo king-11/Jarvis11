@@ -9,10 +9,12 @@
     "strict": true,
     "target": "es2017",
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "skipLibCheck": true
   },
   "compileOnSave": true,
   "include": [
-    "api"
+    "src"
   ]
 }
